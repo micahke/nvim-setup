@@ -20,7 +20,7 @@ vim.cmd[[inoremap <expr> <S-Tab> coc#pum#visible() ? coc#pum#prev(1) : "\<S-Tab>
 
 vim.cmd[[nmap <Leader>r :NERDTreeFocus<cr>R<c-w><c-p>]]
 
-vim.cmd[[nnoremap <silent> ;f <cmd>Telescope find_files<cr>]]
+vim.cmd[[nnoremap <silent> \f <cmd>Telescope find_files<cr>]]
 vim.cmd[[nnoremap <silent> ;r <cmd>Telescope live_grep<cr>]]
-vim.cmd[[nnoremap <silent> \\ <cmd>Telescope buffers<cr>]]
-vim.cmd[[nnoremap <silent> ;; <cmd>Telescope help_tags<cr>]]
+-- vim.cmd[[nnoremap <silent> \\ <cmd>Telescope buffers<cr>]]
+-- vim.cmd[[nnoremap <silent> ;; <cmd>Telescope help_tags<cr>]]
