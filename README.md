@@ -4,7 +4,7 @@ Right now the documentation only supports Mac. Will update as soon as I get it r
 
 ## Prerequisites
 
-1. Install `NeoVim` with `brew install nvim
+1. Install `NeoVim` with `brew install nvim`
 
 ## Setup
 
