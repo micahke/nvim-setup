@@ -12,13 +12,14 @@ return require('packer').startup(function(use)
 	use 'tpope/vim-commentary'
 	use 'nvim-treesitter/nvim-treesitter'
 	use 'neovim/nvim-lspconfig'
-	use {'neoclide/coc.nvim', branch = 'release'}
-	use {"glepnir/lspsaga.nvim", branch = "main"}
+	use {'neoclide/coc.nvim', branch = 'master', run = 'yarn install --frozen-lockfile'}
+	use 'glepnir/lspsaga.nvim'
 	use 'nvim-lua/plenary.nvim'
 	use 'nvim-lua/popup.nvim'
 	use 'nvim-telescope/telescope.nvim'	
 end)
 
+
+	-- use 'neoclide/vim-jsx-improve'
 	-- use 'kyazdani42/nvim-tree.lua'
 	-- use 'kyazdani42/nvim-web-devicons'
-
