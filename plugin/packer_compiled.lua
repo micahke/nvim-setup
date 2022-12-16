@@ -154,6 +154,11 @@ _G.packer_plugins = {
     path = "/Users/yumyumcurryman/.local/share/nvim/site/pack/packer/start/vim-devicons",
     url = "https://github.com/ryanoasis/vim-devicons"
   },
+  ["vim-fugitive"] = {
+    loaded = true,
+    path = "/Users/yumyumcurryman/.local/share/nvim/site/pack/packer/start/vim-fugitive",
+    url = "https://github.com/tpope/vim-fugitive"
+  },
   ["vim-surround"] = {
     loaded = true,
     path = "/Users/yumyumcurryman/.local/share/nvim/site/pack/packer/start/vim-surround",

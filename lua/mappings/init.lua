@@ -13,6 +13,7 @@ require('telescope').setup{
 
 vim.cmd[[nnoremap <C-t> :NERDTreeToggle<CR>]]
 vim.cmd[[nnoremap <C-l> :TagbarToggle<CR>]]
+vim.cmd[[nnoremap <C-f> :NERDTreeFocus<CR>]]
 
 vim.cmd[[inoremap <expr> <cr> coc#pum#visible() ? coc#pum#confirm() : "\<CR>"]]
 vim.cmd[[inoremap <expr> <Tab> coc#pum#visible() ? coc#pum#next(1) : "\<Tab>"]]
@@ -23,6 +24,7 @@ vim.cmd[[nmap <Leader>r :NERDTreeFocus<cr>R<c-w><c-p>]]
 vim.cmd[[nnoremap <silent> \f <cmd>Telescope find_files<cr>]]
 vim.cmd[[nnoremap <silent> \s :split<CR>]]
 vim.cmd[[nnoremap <silent> \v :vsplit<CR>]]
+vim.cmd[[nnoremap <silent> \t :terminal<CR>]]
 vim.cmd[[nnoremap <silent> ;r <cmd>Telescope live_grep<cr>]]
 -- vim.cmd[[nnoremap <silent> \\ <cmd>Telescope buffers<cr>]]
 -- vim.cmd[[nnoremap <silent> ;; <cmd>Telescope help_tags<cr>]]

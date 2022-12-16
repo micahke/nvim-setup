@@ -12,4 +12,5 @@ set.splitright = true
 set.splitbelow = true
 
 
+
 vim.cmd [[set mouse=a]]
